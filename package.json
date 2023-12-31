@@ -1,0 +1,35 @@
+{
+	"name": "start",
+	"version": "1.0.0",
+	"description": "creative project",
+	"main": "",
+	"scripts": {
+		"dev": "gulp"
+	},
+	"author": "Jamshid",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.27.7",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-file-include": "^2.3.0",
+		"gulp-fonter": "^0.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-html-beautify": "^1.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-svg-sprite": "^1.5.0",
+		"gulp-ttf2woff": "^1.1.1",
+		"gulp-ttf2woff2": "^4.0.1",
+		"gulp-uglify-es": "^3.0.0",
+		"gulp-webp": "^4.0.1",
+		"gulp-webp-css": "^1.1.0",
+		"gulp-webp-html": "^1.0.2",
+		"sass": "^1.43.4",
+		"ttf2woff": "^3.0.0",
+		"ttf2woff2": "^4.0.4"
+	}
+}

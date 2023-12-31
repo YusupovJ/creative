@@ -1,0 +1,49 @@
+&__icon {
+    width: 30px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+    span,
+    &::before,
+    &::after {
+        transition: all 0.5s ease 0s;
+        width: 100%;
+        height: 10%;
+        background: #fff;
+        position: absolute;
+        left: 0;
+    }
+    &::before,
+    &::after {
+        content: "";
+    }
+    &::after {
+        top: 0;
+    }
+    span {
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    &::before {
+        bottom: 0;
+    }
+}
+&._active {
+    .menu__body {
+        top: 0;
+        opacity: 1;
+    }
+    .menu__icon {
+        &::after {
+            top: 50%;
+            transform: rotate(45deg) translate(0, 50%);
+        }
+        span {
+            transform: scale(0);
+        }
+        &::before {
+            bottom: 38%;
+            transform: rotate(-45deg) translate(0, -50%);
+        }
+    }
+}
